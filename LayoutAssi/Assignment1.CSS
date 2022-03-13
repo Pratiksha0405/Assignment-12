@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.main1{
+    height: 600px;
+    width: 1000px;
+    background-color: white;
+    margin: auto;
+    border: black;
+}
+
+.header{
+    height: 90px;
+    width: 1000px;
+    background-color: darkturquoise;
+}
+
+.main2{
+    height: 398px;
+    width: 1000px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sidebar1{
+    height: 398px;
+    width: 300px;
+    background-color: seagreen;
+    float: left;
+    
+}
+
+.sidebar2{
+    height: 398px;
+    width: 600px;
+    background-color: seagreen;
+    float: right;
+}
+
+.footer1{
+    height: 90px;
+    width: 1000px;
+    background-color: darkturquoise;
+}

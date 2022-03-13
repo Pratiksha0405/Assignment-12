@@ -1,0 +1,89 @@
+.main{
+    height: 800px;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    height: 100px;
+    width: 1200px;
+}
+
+.branding{
+    height: 100px;
+    width: 400px;
+    background-color: blueviolet;
+    float: left;
+}
+
+.media{
+    height: 50px;
+    width: 800px;
+    background-color: chocolate;
+    float: left;
+}
+
+.menu{
+    height: 50px;
+    width: 800px;
+    background-color: seagreen;
+    float: left;
+}
+
+.container{
+    height: 300px;
+    width: 1200px;
+}
+
+.gallary{
+    height: 300px;
+    width: 1200px;
+    background-color: salmon;
+}
+
+.courses{
+    height: 300px;
+    width: 1200px;
+}
+
+.bootcamp{
+    height: 300px;
+    width: 300px;
+    background-color: coral;
+    float: left;
+    text-align: center;
+}
+
+.cloud{
+    height: 300px;
+    width: 300px;
+    background-color: fuchsia;
+    float: left;
+    text-align: center;
+}
+
+.learn{
+    height: 300px;
+    width: 300px;
+    background-color: slategrey;
+    float: left;
+    text-align: center;
+}
+
+.DSA{
+    height: 300px;
+    width: 300px;
+    background-color: goldenrod;
+    float: left;
+    text-align: center;
+}
+
+.footer{
+    height: 100px;
+    width: 1200px;
+    background-color: limegreen;
+    float: left;
+    text-align: center;
+}
