@@ -1,5 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .main{
-    height: 800px;
+    height: 1000px;
     width: 1200px;
     margin: auto;
     text-align: center;
@@ -7,49 +11,100 @@
 }
 
 .header{
-    height: 100px;
+    height: 150px;
     width: 1200px;
 }
 
 .branding{
-    height: 100px;
+    height: 150px;
     width: 400px;
-    background-color: blueviolet;
+    background-color: lightcoral;
     float: left;
 }
 
+.branding img{
+    height: 150px;
+    width: 400px;
+}
 .media{
-    height: 50px;
+    height: 100px;
     width: 800px;
     background-color: chocolate;
     float: left;
+    
 }
+
+.media img{
+    height: 80px;
+    width: 150px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+    padding-left: 15px;
+    
+   }
 
 .menu{
     height: 50px;
     width: 800px;
     background-color: seagreen;
     float: left;
-}
+    list-style-image: none;
+    }
+
+.menu ul li{
+        float: left;
+        list-style: none;
+        display: block;
+        background-color: palevioletred;
+        height: 40px;
+        width: 190px;
+        margin-left: 8px;
+        margin-top: 5px;
+        text-align: center;
+        line-height: 40px;
+    }
+    .menu ul li:hover{
+        background-color: bisque;
+
+    }
+
+    .menu ul li a{
+        text-decoration: none;
+        color: blue;
+    }
 
 .container{
-    height: 300px;
+    height: 800px;
     width: 1200px;
 }
 
 .gallary{
-    height: 300px;
+    height: 400px;
     width: 1200px;
     background-color: salmon;
+
+    overflow: scroll;
+}
+
+.gallary img{
+    height: 400px;
+    width: 1200px;
 }
 
 .courses{
-    height: 300px;
+    height: 400px;
     width: 1200px;
+    background-color: aliceblue;
+}
+
+.courses img{
+    height: 400px;
+    width: 300px;
 }
 
 .bootcamp{
-    height: 300px;
+    height: 400px;
     width: 300px;
     background-color: coral;
     float: left;
@@ -57,7 +112,7 @@
 }
 
 .cloud{
-    height: 300px;
+    height: 400px;
     width: 300px;
     background-color: fuchsia;
     float: left;
@@ -65,15 +120,15 @@
 }
 
 .learn{
-    height: 300px;
+    height: 400px;
     width: 300px;
     background-color: slategrey;
     float: left;
     text-align: center;
 }
 
-.DSA{
-    height: 300px;
+.DS{
+    height: 400px;
     width: 300px;
     background-color: goldenrod;
     float: left;
@@ -81,9 +136,10 @@
 }
 
 .footer{
-    height: 100px;
+    height: 50px;
     width: 1200px;
-    background-color: limegreen;
+    background-color: lightslategrey;
     float: left;
-    text-align: center;
+    text-align: left;
+    line-height: 50px;
 }
